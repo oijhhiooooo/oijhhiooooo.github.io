@@ -1,0 +1,4 @@
+[
+  {"name": "Home", "icon": "/sprites/home.png", "path": "/"},
+  {"name": "Page 1", "icon": "/sprites/page1.png", "path": "/p1/"}
+]

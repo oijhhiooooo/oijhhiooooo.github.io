@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="pages"></div>
+  <div id="page">
+    <div id="mainmenu">
+      <button id="arrowgamebutton" class="gamebuttons" onclick="startArrowGame()" onmouseover="document.getElementById('arrowgametext').style.display = 'block';" onmouseout="document.getElementById('arrowgametext').style.display = 'none';"><img src="/sprites/lightgame.png"><h3 style="display: none;" id="arrowgametext">Zet alle lampen uit</h3></button>
+      <button class="gamebuttons"><h1>insert game here</h1></button>
+    </div>
+    <h1 id="coincounter">🪙: <span id="coins">67</span></h1>
+
+
+    <div id="arrowgamediv" style="display: none;">
+      <button class="arrowgamelight" id="arrg0" onclick="arrowGameClick(0)"></button>
+      <button class="arrowgamelight" id="arrg1" onclick="arrowGameClick(1)"></button>
+      <button class="arrowgamelight" id="arrg2" onclick="arrowGameClick(2)"></button>
+      <button class="arrowgamelight" id="arrg3" onclick="arrowGameClick(3)"></button>
+      <button class="arrowgamelight" id="arrg4" onclick="arrowGameClick(4)"></button>
+      <button class="arrowgamelight" id="arrg5" onclick="arrowGameClick(5)"></button>
+      <button class="arrowgamelight" id="arrg6" onclick="arrowGameClick(6)"></button>
+      <button class="arrowgamelight" id="arrg7" onclick="arrowGameClick(7)"></button>
+      <button class="arrowgamelight" id="arrg8" onclick="arrowGameClick(8)"></button>
+    </div>
+  </div>
+
+
+
+  <script src="/page manager/script.js"></script>
+  <script src="gamemanager.js"></script>
+  <script src="arrow.js"></script>
+</body>
+</html>
